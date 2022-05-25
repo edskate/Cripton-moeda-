@@ -1,0 +1,95 @@
+body{
+    background-color: #f2f2f2;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: rgb(251, 12, 12);
+    line-height: 1.5;
+    margin: 10;
+    padding: 10;
+    text-shadow: 2px 3px 4px #000000;
+}
+div {
+    margin: 20;
+    padding: 20;
+}
+.box1 {
+    background-color: #f2f2f280;
+    border: 1px solid rgb(247, 19, 19);
+    border-radius: 5px;
+    box-shadow: 2px 3px 4px #000000;
+    margin: 25;
+    padding: 10;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    font-size: 25px;
+    background: #808080;
+    text-shadow: 2px 3px 4px #000;
+}
+details {
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    padding: .5em .5em 0;
+}
+
+summary {
+    font-weight: bold;
+    margin: -.5em -.5em 0;
+    padding: .5em;
+}
+
+details[open] {
+    padding: .5em;
+}
+
+details[open] summary {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: .5em;
+}
+details {
+    font: 16px "Open Sans", Calibri, sans-serif;
+    width: 620px;
+  }
+  
+  details > summary {
+    padding: 2px 6px;
+    width: 15em;
+    background-color: #ddd;
+    border: none;
+    box-shadow: 3px 3px 4px black;
+    cursor: pointer;
+  }
+  
+  details > p {
+    border-radius: 0 0 10px 10px;
+    background-color: #ddd;
+    padding: 2px 6px;
+    margin: 0;
+    box-shadow: 3px 3px 4px black;
+  }
+  
+  details[open] > summary {
+    background-color: #ccf;
+  }
+  details {
+    font: 16px "Open Sans", Calibri, sans-serif;
+    width: 620px;
+  }
+  
+  details > summary {
+    padding: 2px 6px;
+    width: 15em;
+    background-color: #ddd;
+    border: none;
+    box-shadow: 3px 3px 4px black;
+    cursor: pointer;
+    list-style: none;
+  }
+  
+  details > p {
+    border-radius: 0 0 10px 10px;
+    background-color: #ddd;
+    padding: 2px 6px;
+    margin: 0;
+    box-shadow: 3px 3px 4px black;
+  }
